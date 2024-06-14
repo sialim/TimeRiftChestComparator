@@ -1,0 +1,8 @@
+name: TimeRiftChestComparator
+version: '1.1.0'
+main: me.sialim.timeriftchestcomparator.TimeRiftChestComparator
+api-version: '1.20'
+commands:
+  toggledupecheck:
+    description: Toggles dupe check feature
+    usage: /toggledupecheck
