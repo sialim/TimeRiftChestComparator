@@ -1,8 +1,12 @@
 name: TimeRiftChestComparator
-version: '1.1.0'
+version: '1.2.0'
 main: me.sialim.timeriftchestcomparator.TimeRiftChestComparator
 api-version: '1.20'
 commands:
-  toggledupecheck:
+  itemchecker:
     description: Toggles dupe check feature
-    usage: /toggledupecheck
+    usage: /itemchecker [inventory]
+permissions:
+  itemchecker.toggle:
+    description: Allows the player to toggle the duplicate check feature.
+    default: op
